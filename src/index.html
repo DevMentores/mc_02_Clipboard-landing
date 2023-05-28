@@ -14,13 +14,13 @@
 
 </head>
 
-<body class="">
-  <main>
-    <section>
-      <figure>
+<body class="body-container">
+  <main class="d-flex flex-column container justify-content-center align-items-center">
+    <section class="debug d-flex flex-column accordion-body align-items-center">
+      <figure class="">
         ©
       </figure>
-      <div class="">
+      <div class="debug">
         <h1 class="ff-bai fw-600 ">A history of everything you copy</h1>
         <p>
           Clipboard allows you to track and organize everything you
@@ -42,9 +42,10 @@
         </p>
       </div>
     </section>
+
     <section>
       <figure>
-        <img src="./assets/image-computer.png" alt="computer" />
+        <img class="img-fluid" src="./assets/image-computer.png" alt="computer" />
       </figure>
       <article>
         <div>
@@ -70,7 +71,7 @@
         </p>
       </div>
       <figure>
-        <img src="./assets/image-devices.png" alt="devices" />
+        <img class="img-fluid" src="./assets/image-devices.png" alt="devices" />
       </figure>
     </section>
     <section>
@@ -81,7 +82,7 @@
       <article>
         <div>
           <figure>
-            <img src="./assets/icon-blacklist.svg" alt="blacklist" />
+            <img class="img-fluid" src="./assets/icon-blacklist.svg" alt="blacklist" />
           </figure>
           <h3>
             Create blacklists
@@ -92,7 +93,7 @@
         </div>
         <div>
           <figure>
-            <img src="./assets/icon-text.svg" alt="text" />
+            <img class="img-fluid" src="./assets/icon-text.svg" alt="text" />
           </figure>
           <h3>
             Plain text snippets
@@ -103,7 +104,7 @@
         </div>
         <div>
           <figure>
-            <img src="./assets/icon-preview.svg" alt="preview" />
+            <img class="img-fluid" src="./assets/icon-preview.svg" alt="preview" />
           </figure>
           <h3>
             Sneak preview
@@ -115,22 +116,23 @@
       </article>
       <article>
         <figure>
-          <img src="./assets/logo-google.png" alt="google logo" />
+          <img class="img-fluid" src="./assets/logo-google.png" alt="google logo" />
         </figure>
         <figure>
-          <img src="./assets/logo-ibm.png" alt="ibm logo" />
+          <img class="img-fluid" src="./assets/logo-ibm.png" alt="ibm logo" />
         </figure>
         <figure>
-          <img src="./assets/logo-microsoft.png" alt="microsoft logo" />
+          <img class="img-fluid" src="./assets/logo-microsoft.png" alt="microsoft logo" />
         </figure>
         <figure>
-          <img src="./assets/logo-hp.png" alt="hp logo" />
+          <img class="img-fluid" src="./assets/logo-hp.png" alt="hp logo" />
         </figure>
         <figure>
-          <img src="./assets/logo-vector-graphics.png" alt="vector graphics logo" />
+          <img class="img-fluid" src="./assets/logo-vector-graphics.png" alt="vector graphics logo" />
         </figure>
       </article>
     </section>
+
     <section>
       <div class="">
         <h2>Clipboard for iOS and Mac OS</h2>
@@ -142,13 +144,17 @@
         <button>Download for Mac</button>
       </div>
     </section>
+
+
   </main>
-  <footer>
+
+  <!-- footer -->
+  <footer class="w-25 debug">
     <figure>
       ©
     </figure>
 
-    <nav>
+    <nav aria-label="page links">
       <ul>
         <a href="" target="">
           <li>
@@ -178,17 +184,17 @@
       </ul>
     </nav>
 
-    <div class="">
-      <figure>
-        <img src="./assets/icon-facebook.svg" alt="facebook icon" />
-      </figure>
-      <figure>
-        <img src="./assets/icon-twitter.svg" alt="twitter icon" />
-      </figure>
-      <figure>
-        <img src="./assets/icon-instagram.svg" alt="instagram icon" />
-      </figure>
-    </div>
+    <nav class="" aria-label="social meida links">
+      <a href="" target="_self">
+        <img class="img-fluid" src="./assets/icon-facebook.svg" alt="icon-facebook" />
+      </a>
+      <a href="" target="_self">
+        <img class="img-fluid" src="./assets/icon-twitter.svg" alt="icon-twitter" />
+      </a>
+      <a href="" target="_self">
+        <img class="img-fluid" src="./assets/icon-instagram.svg" alt="icon-instagram" />
+      </a>
+    </nav>
 
     <small class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
