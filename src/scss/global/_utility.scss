@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+@import "variables";
+
+// font family
+.ff-bai {
+	font-family: "Bai Jamjuree", sans-serif;
+}
+
+// font weight
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+// primary colors
+.Bg-StrongCyan {
+	background-color: $StrongCyan !important;
+}
+
+.Bg-LightBlue {
+	background-color: $LightBlue !important;
+}
+
+// neutral colors
+.Bg-DarkGrayishBlue {
+	background-color: $DarkGrayishBlue !important;
+}
+
+.Bg-GrayishBlue {
+	background-color: $GrayishBlue !important;
+}
+
+//
