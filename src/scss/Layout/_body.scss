@@ -5,3 +5,10 @@
 	grid-template-rows: 1fr auto;
 	display: grid;
 }
+
+.PartnerShip {
+	img {
+		aspect-ratio: 1/1;
+		object-fit: contain;
+	}
+}
