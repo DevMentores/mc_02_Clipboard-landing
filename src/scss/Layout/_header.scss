@@ -1,0 +1,10 @@
+.Bg-image {
+	background-image: url(../assets/bg-header-mobile.png);
+	background-repeat: no-repeat;
+
+	width: 100%;
+
+	@media (min-width: 500px) {
+		background-image: url(../assets/bg-header-desktop.png);
+	}
+}
