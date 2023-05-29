@@ -1,2 +1,10 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+@import "./global/utility";
+@import "./Layout/body";
+@import "./component/component";
+@import "./Layout/header";
+
+.debug {
+	outline: 1px solid red;
+}

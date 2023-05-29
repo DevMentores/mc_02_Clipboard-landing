@@ -1,0 +1,14 @@
+.body-container {
+	min-height: 100vh;
+	min-height: 100dvh;
+
+	grid-template-rows: 1fr auto;
+	display: grid;
+}
+
+.PartnerShip {
+	img {
+		aspect-ratio: 1/1;
+		object-fit: contain;
+	}
+}
