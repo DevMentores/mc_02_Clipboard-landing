@@ -1,0 +1,18 @@
+section {
+	& > div:first-child {
+		max-width: 750px;
+		border: 1px solid lime;
+
+		h2 {
+			font-size: clamp(1.75rem, 2vw, 2.25rem);
+		}
+
+		p {
+			font-size: clamp(1rem, 2vw, 18px);
+		}
+	}
+}
+
+.two-cols {
+	width: 100% !important;
+}
