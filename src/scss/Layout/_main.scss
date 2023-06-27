@@ -1,0 +1,41 @@
+section {
+	& > div:first-child {
+		max-width: 750px;
+
+		h2 {
+			font-size: clamp(1.75rem, 2vw, 2.25rem);
+		}
+
+		p {
+			font-size: clamp(1rem, 2vw, 18px);
+		}
+	}
+}
+.snippets-section {
+	width: 100%;
+
+	.two-cols {
+		width: 100% !important;
+	}
+	@media (min-width: 48rem) {
+		.two-cols {
+			margin-top: 3rem;
+		}
+		.two-cols > figure {
+			max-width: 100%;
+			padding: 0;
+		}
+
+		.two-cols > article {
+			margin-block: auto;
+			max-width: 24rem;
+			gap: 4.5rem !important;
+		}
+
+		.two-cols > figure > img {
+			width: 60rem;
+
+			margin-left: -4rem;
+		}
+	}
+}

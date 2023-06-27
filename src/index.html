@@ -15,21 +15,22 @@
 </head>
 
 <body class="body-container">
-  <main class="d-flex flex-column  justify-content-center align-items-center gap-4 mb-5">
+  <main class=" d-flex flex-column  justify-content-center align-items-center gap-4 mb-5 ">
 
     <!-- Hero section with Download Buttons -->
-    <section class="Bg-image |  py-3 px-3 d-flex flex-column accordion-body align-items-center">
+    <section class="Bg-image  |  py-3 px-3 d-flex flex-column accordion-body align-items-center col-form-label-sm ">
       <figure class="StrongCyan fs-96px ff-comfortaa pt-5">
         ©
       </figure>
-      <div class="d-flex flex-column gap-2">
-        <h1 class="ff-bai fw-600 text-center DarkGrayishBlue fs-32px px-2">A history of everything you copy</h1>
-        <p class="ff-bai fs-16px fw-400 GrayishBlue px-3 text-center container">
+      <div class="hero-box  | d-flex flex-column gap-2  ">
+        <h1 class="ff-bai fw-600 text-center DarkGrayishBlue px-sm-2 px-md-4 ">A history of everything you copy</h1>
+        <p class="ff-bai fw-400 GrayishBlue px-3 text-center container">
           Clipboard allows you to track and organize everything you
           copy. Instantly access your clipboard on all your devices.
         </p>
       </div>
-      <div class="d-flex flex-column gap-4 ff-bai  w-100 p-3">
+      <div
+        class=" d-flex flex-column  gap-4 ff-bai  w-100 p-3 flex-md-row justify-content-md-center align-items-md-center ">
         <button class="drop-shadow-cyan | btn Bg-StrongCyan py-2  fs-5 px-5 rounded-5  text-white fw-400">Download for
           iOS</button>
         <button class="drop-shadow-blue | btn Bg-LightBlue py-2 fs-5  px-5 rounded-5 text-white  fw-400">Download for
@@ -38,8 +39,8 @@
     </section>
 
     <!-- Track your snippets SubHeader Section -->
-    <section class=" container py-3 mt-5">
-      <div class="d-flex flex-column container justify-content-center align-items-center ff-bai  gap-2">
+    <section class="  snippets-section | py-3 mt-5 ">
+      <div class="| d-flex flex-column container justify-content-center align-items-center ff-bai  gap-2 ">
         <h2 class="fw-600 DarkGrayishBlue fs-28px px-2 text-center">Keep track of your snippets</h2>
         <p class="fs-16px fw-400 GrayishBlue px-3 text-center container">
           Clipboard instantly stores any item you copy in the cloud,
@@ -47,32 +48,32 @@
           devices. Our Mac and iOS apps will help you organize everything.
         </p>
       </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="container">
-      <figure class=" p-4">
-        <img class="img-fluid" src="./assets/image-computer.png" alt="computer" />
-      </figure>
-      <article class="d-flex flex-column justify-content-center align-items-center text-center gap-3 ff-bai">
-        <div class="d-flex flex-column gap-1 container">
-          <h3 class="fw-600 DarkGrayishBlue">Quick Search</h3>
-          <p class="fw-400 GrayishBlue">Easily search your snippets by content, category, web address, application, and
-            more.</p>
-        </div>
-        <div class="d-flex flex-column gap-1 container">
-          <h3 class="fw-600 DarkGrayishBlue">iCloud Sync</h3>
-          <p class="fw-400 GrayishBlue">Instantly saves and syncs snippets across all your devices.</p>
-        </div>
-        <div class="d-flex flex-column gap-1 container">
-          <h3 class="fw-600 DarkGrayishBlue">Complete History</h3>
-          <p class="fw-400 GrayishBlue">Retrieve any snippets from the first moment you started using the app.</p>
-        </div>
-      </article>
+      <div class="two-cols | d-flex flex-column    flex-md-row">
+        <figure class=" p-4 ">
+          <img class="img-fluid" src="./assets/image-computer.png" alt="computer" />
+        </figure>
+        <article
+          class=" d-flex flex-column justify-content-center align-items-center text-center text-md-start gap-3 ff-bai justify-content-md-start align-self-md-start ">
+          <div class="d-flex flex-column gap-1 container">
+            <h3 class="fw-600 DarkGrayishBlue">Quick Search</h3>
+            <p class="fw-400 GrayishBlue">Easily search your snippets by content, category, web address, application,
+              and
+              more.</p>
+          </div>
+          <div class="d-flex flex-column gap-1 container">
+            <h3 class="fw-600 DarkGrayishBlue">iCloud Sync</h3>
+            <p class="fw-400 GrayishBlue">Instantly saves and syncs snippets across all your devices.</p>
+          </div>
+          <div class="d-flex flex-column gap-1 container">
+            <h3 class="fw-600 DarkGrayishBlue">Complete History</h3>
+            <p class="fw-400 GrayishBlue">Retrieve any snippets from the first moment you started using the app.</p>
+          </div>
+        </article>
+      </div>
     </section>
 
     <!-- Multiple devices Section -->
-    <section class=" d-flex flex-column justify-content-center align-items-center container gap-5">
+    <section class=" d-flex flex-column justify-content-center align-items-center container mt-5 gap-5">
       <div
         class="container d-flex flex-column justify-content-center align-items-center gap-2 ff-bai text-center DarkGrayishBlue">
         <h2 class="fw-600 fs-28px">Access Clipboard anywhere</h2>
@@ -81,7 +82,7 @@
           snippets in a few simple clicks.
         </p>
       </div>
-      <figure class="container">
+      <figure class="container d-flex justify-content-center align-items-center mt-md-2">
         <img class="img-fluid" src="./assets/image-devices.png" alt="devices" />
       </figure>
     </section>
@@ -95,9 +96,10 @@
       </div>
 
       <!-- Advanced Features -->
-      <article class="d-flex flex-column justify-content-center align-items-center gap-4 ff-bai mt-5 pt-3">
+      <article
+        class="d-flex flex-column justify-content-center align-items-center gap-4 ff-bai mt-5 pt-3 flex-md-row  gap-md-3 align-items-md-start">
         <div
-          class="d-flex flex-column justify-content-center align-items-center gap-3 text-center container px-3  py-3">
+          class="d-flex flex-column justify-content-center align-items-center gap-3 text-center container px-3  py-3 px-md-4">
           <figure>
             <img class="img-fluid" src="./assets/icon-blacklist.svg" alt="blacklist" />
           </figure>
@@ -109,7 +111,7 @@
           </p>
         </div>
         <div
-          class="d-flex flex-column justify-content-center align-items-center gap-3 text-center container px-3  py-3">
+          class="d-flex flex-column justify-content-center align-items-center gap-3 text-center container px-3  py-3 px-md-4">
           <figure>
             <img class="img-fluid" src="./assets/icon-text.svg" alt="text" />
           </figure>
@@ -121,7 +123,7 @@
           </p>
         </div>
         <div
-          class="d-flex flex-column justify-content-center align-items-center gap-3 text-center container px-3  py-3">
+          class="d-flex flex-column justify-content-center align-items-center gap-3 text-center container px-3  py-3 px-md-4">
           <figure>
             <img class="img-fluid" src="./assets/icon-preview.svg" alt="preview" />
           </figure>
@@ -135,7 +137,7 @@
       </article>
 
       <!-- Partnership -->
-      <article class="d-flex flex-column justify-content-center align-items-center gap-5 px-5 py-3 my-5 ">
+      <article class="d-flex flex-column justify-content-center align-items-center gap-5 px-5 py-3 my-5   flex-md-row">
         <figure class="PartnerShip | container  ">
           <img class="img-fluid" src="./assets/logo-google.png" alt="google logo" />
         </figure>
@@ -155,7 +157,7 @@
     </section>
 
     <!-- Download Section -->
-    <section class="d-flex flex-column justify-content-center align-items-center gap-3 container mb-5">
+    <section class="d-flex flex-column justify-content-center align-items-center gap-3 container mt-md-3">
       <div class="d-flex flex-column justify-content-center align-items-center gap-3 container text-center">
         <h2 class="fw-600 fs-28px DarkGrayishBlue">Clipboard for iOS and Mac OS</h2>
         <p class="fw-400 GrayishBlue px-2 fs-16px">
@@ -163,7 +165,7 @@
           and you’re ready to start adding to your clipboard.
         </p>
       </div>
-      <div class="d-flex flex-column gap-4 ff-bai  w-100 p-3">
+      <div class="d-flex flex-column gap-4 ff-bai  w-100 p-3 flex-md-row justify-content-md-center">
         <button class="drop-shadow-cyan | btn Bg-StrongCyan py-2  fs-5 px-5 rounded-5  text-white fw-400">Download for
           iOS</button>
         <button class="drop-shadow-blue | btn Bg-LightBlue py-2 fs-5  px-5 rounded-5 text-white  fw-400">Download for
@@ -174,13 +176,14 @@
   </main>
 
   <!-- footer -->
-  <footer class="Bg-Footer d-flex flex-column justify-content-center align-items-center mt-5 gap-4 position-relative">
+  <footer
+    class="Bg-Footer d-flex flex-column justify-content-center align-items-center mt-5 gap-4 position-relative flex-md-row gap-md-5  justify-content-md-around px-md-5">
     <figure class="StrongCyan fs-64px ff-comfortaa pt-4">
       ©
     </figure>
 
-    <nav aria-label="page links" class="ff-bai">
-      <ul class=" nav-link | d-flex flex-column  gap-3  text-center list-unstyled">
+    <nav aria-label="page links" class="ff-bai ">
+      <ul class=" nav-link | d-flex flex-column  gap-3  text-center list-unstyled d-md-grid">
         <a href="" target="" class=" text-decoration-none DarkGrayishBlue fw-600 ">
 
           <!-- remove li  decoration -->
@@ -190,12 +193,12 @@
         </a>
         <a href="" target="" class="text-decoration-none DarkGrayishBlue fw-600">
           <li>
-            Contact Us
+            Privacy Policy
           </li>
         </a>
         <a href="" target="" class="text-decoration-none DarkGrayishBlue fw-600">
           <li>
-            Privacy Policy
+            Install Guide
           </li>
         </a>
         <a href="" target="" class="text-decoration-none DarkGrayishBlue fw-600">
@@ -205,13 +208,13 @@
         </a>
         <a href="" target="" class="text-decoration-none DarkGrayishBlue fw-600">
           <li>
-            Install Guide
+            Contact Us
           </li>
         </a>
       </ul>
     </nav>
 
-    <nav aria-label="social meida links" class="d-flex justify-content-center align-items-center gap-5 ">
+    <nav aria-label="social meida links" class=" socialMedia | d-flex justify-content-center align-items-center gap-5 ">
       <a href="" target="_self">
         <img class="img-fluid" src="./assets/icon-facebook.svg" alt="icon-facebook" />
       </a>

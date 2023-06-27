@@ -7,4 +7,34 @@
 	@media (min-width: 500px) {
 		background-image: url(../assets/bg-header-desktop.png);
 	}
+
+	@media (min-width: 768px) {
+		background-size: cover;
+	}
+
+	figure {
+		caret-color: transparent;
+	}
+}
+
+.hero-box {
+	max-width: 48rem;
+	--min: 1rem;
+	--max: 3rem;
+	--vw: 2vw;
+
+	h1,
+	p,
+	h2 {
+		font-size: clamp(var(--min), var(--vw), var(--max));
+	}
+
+	h1 {
+		--min: 2rem;
+		--vw: 3vw;
+	}
+
+	p {
+		--max: 1.25rem;
+	}
 }
