@@ -1,6 +1,6 @@
 const path = require("path");
 
-export default {
+module.exports = {
 	root: path.resolve(__dirname, "src"),
 	build: {
 		outDir: "../dist",
@@ -8,7 +8,6 @@ export default {
 
 	server: {
 		port: 8080,
-
 		hot: true,
 	},
 };
